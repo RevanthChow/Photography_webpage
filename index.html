@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rev_captures | Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="min-h-screen bg-white">
+        <header class="header">
+            <div class="header-container">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="camera-icon">
+                        <path d="M14.5 4h-5L7 7H4a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-3l-2.5-3z"/>
+                        <circle cx="12" cy="13" r="3"/>
+                    </svg>
+                    <span class="logo-text">REV_CAPTURES</span>
+                </div>
+                <button class="connect-button" onclick="handleConnect()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" fill="none" />
+                        <path d="M9.5 15a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z" />
+                        <path d="M12 11.5h1.5a2.5 2.5 0 1 1 0 5h-1a2.5 2.5 0 0 1 0-5z" />
+                    </svg>
+                    <span>Connect with Me</span>
+                </button>
+
+            </div>
+        </header>
+
+        <section class="hero">
+            <h1>Capturing America's<br>Beauty Through My Lens</h1>
+            <p>Join me on a visual journey across America's most breathtaking landscapes. From winding highways to urban skylines,
+            each photograph tells a story of discovery and adventure. My passion lies in capturing the extraordinary moments
+            that make each location unique and memorable.</p>
+        </section>
+
+        <section class="gallery">
+            <div class="gallery-grid" id="gallery"></div>
+        </section>
+
+        <footer class="footer">
+            <p>© <span id="year"></span> rev_captures. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
