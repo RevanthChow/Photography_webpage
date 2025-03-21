@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="min-h-screen bg-white">
+        <!-- Header -->
         <header class="header">
             <div class="header-container">
                 <div class="logo">
@@ -25,21 +26,30 @@
                     </svg>
                     <span>Connect with Me</span>
                 </button>
-
+                
+                <script>
+                    function handleConnect() {
+                        window.open('https://www.instagram.com/rev__captures?igsh=MTBmdnd3aXc4bXBq', '_blank');
+                    }
+                </script>
+                
             </div>
         </header>
 
+        <!-- Hero Section -->
         <section class="hero">
             <h1>Capturing America's<br>Beauty Through My Lens</h1>
-            <p>Join me on a visual journey across America's most breathtaking landscapes. From winding highways to urban skylines,
-            each photograph tells a story of discovery and adventure. My passion lies in capturing the extraordinary moments
+            <p>Join me on a visual journey across America's most breathtaking landscapes. From winding highways to urban skylines, 
+            each photograph tells a story of discovery and adventure. My passion lies in capturing the extraordinary moments 
             that make each location unique and memorable.</p>
         </section>
 
+        <!-- Gallery -->
         <section class="gallery">
             <div class="gallery-grid" id="gallery"></div>
         </section>
 
+        <!-- Footer -->
         <footer class="footer">
             <p>© <span id="year"></span> rev_captures. All rights reserved.</p>
         </footer>
